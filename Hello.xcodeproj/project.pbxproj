@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		37CB7AFE1C9D90AD00863321 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37CB7AFD1C9D90AD00863321 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		37CB7AF81C9D90AD00863321 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		37CB7AFA1C9D90AD00863321 /* Hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hello; sourceTree = BUILT_PRODUCTS_DIR; };
-		37CB7AFD1C9D90AD00863321 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		37CB7AFA1C9D90AD00863321 /* Hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Hello; path = /Users/Samir/home/Hello/build/Debug/Hello; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +36,7 @@
 		37CB7AF11C9D90AD00863321 = {
 			isa = PBXGroup;
 			children = (
-				37CB7AFC1C9D90AD00863321 /* Hello */,
-				37CB7AFB1C9D90AD00863321 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		37CB7AFB1C9D90AD00863321 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37CB7AFA1C9D90AD00863321 /* Hello */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		37CB7AFC1C9D90AD00863321 /* Hello */ = {
-			isa = PBXGroup;
-			children = (
-				37CB7AFD1C9D90AD00863321 /* main.cpp */,
-			);
-			path = Hello;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +81,7 @@
 				en,
 			);
 			mainGroup = 37CB7AF11C9D90AD00863321;
-			productRefGroup = 37CB7AFB1C9D90AD00863321 /* Products */;
+			productRefGroup = 37CB7AF11C9D90AD00863321;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -118,7 +95,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CB7AFE1C9D90AD00863321 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +213,7 @@
 				37CB7B031C9D90AD00863321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
